@@ -178,3 +178,27 @@ text-align:center;
 padding-top:7px;
 padding-bottom:7px;
 }
+
+#tgc {
+  width: 100%;
+  text-align: center; }
+  #tgc td {
+    border: none;
+    text-align: center; }
+    #tgc td:last-of-type {
+      min-width: 140px; }
+  #tgc tbody {
+    border-bottom: none; }
+  #tgc input[type="text"] {
+    padding: 6px 8px;
+    margin: 0 10%;
+    width: 80%;
+    text-align: left; }
+  #tgc .td-input {
+    width: 50%; }
+  #tgc .td-span span {
+    display: inline-block;
+    width: 100%;
+    text-align: center; }
+  #tgc .calc-button {
+    margin: 10px; }
