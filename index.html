@@ -134,5 +134,44 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po
 </center>
 <br><br>
 <br>
+<div class="entry-content">
+	<form name="GoalGPACalc">
+	  <table id="tgc" class="wg-calc" align="center">
+		<tr>
+		  <td class="td-span">
+			<span>Current GPA</span></td>
+		  <td class="td-input">
+			<input type="text" name="currGPA" size="5"></td>
+		</tr>
+		<tr>
+		  <td class="td-span">
+		   <span>Current Credits</span></td>
+		  <td class="td-input">
+			<input type="text" name="currCredits" size="5"></td>
+		</tr>
+		<tr>
+		  <td class="td-span">
+			<span>Goal GPA</span></td>
+		  <td class="td-input" >
+			<input type="text" name="goalGPA" size="5"></td>
+		</tr>
+		<tr>
+		  <td class="td-span">
+		   <span>Additional Credits </span></td>
+		  <td class="td-input">
+		   <input type="text" name="newCredits" size="5"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<input class="calc-button" type="button" value="Calculate" name="CalcGoal" onclick="GoalCalc()">
+			<input class="calc-button" type="reset" value="Reset">
+			</td>
+		</tr>
+	  </table>
+	</form>
+</div>
+<link rel='stylesheet' id='target-gpa-calculator-css-css'  href='/css/target_gpa_calculator.css' type='text/css' media='all'/>
+
+<script type='text/javascript' src='/target_gpa_calculator.js' id='target-gpa-calculator-js-js'></script>
 </body>
 </html>
