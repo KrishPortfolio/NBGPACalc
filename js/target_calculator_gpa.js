@@ -23,7 +23,7 @@ function round2d(n){return(.01* Math.round(100*n));}
 	var GPA1 = 0;
 	GPA1 = round2d(points1 / newCreditnum);
 
-	alert("To reach your goal, your GPA for your next " + eval(newCreditnum) + " credits must be " + eval(GPA1));
+	window.alert("To reach your goal, your GPA for your next " + eval(newCreditnum) + " credits must be " + eval(GPA1));
 
 	return 0;
 }
